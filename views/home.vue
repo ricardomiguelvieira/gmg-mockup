@@ -1,14 +1,17 @@
 <template>
-  <div class="main-description">
-    <h1>The Ultimate Learning Platform</h1>
-    <ul class="features-list">
-      <li>English</li>
-      <li>Maths</li>
-      <li>Science</li>
-      <li>All major qualifications</li>
-      <li>Years 7 - 11</li>
-    </ul>
-    <b-button variant="outline-primary">Start Free 7 Day Trial Now</b-button>
+  <div class="main-container">
+    <navbar-top />
+    <div class="main-description">
+      <h1>The Ultimate Learning Platform</h1>
+      <ul class="features-list">
+        <li>English</li>
+        <li>Maths</li>
+        <li>Science</li>
+        <li>All major qualifications</li>
+        <li>Years 7 - 11</li>
+      </ul>
+      <b-button variant="outline-primary">Start Free 7 Day Trial Now</b-button>
+    </div>
   </div>
 </template>
 
