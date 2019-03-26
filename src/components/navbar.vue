@@ -22,37 +22,36 @@ export default {
 
 <style>
 
-#navbar {
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: 400;
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: sticky;
-  top: 0;
-  padding: 5px 30px;
-  background: #FFFFFF;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-}
+  #navbar {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    padding: 5px 30px;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
 
-#navbar-logo {
-  width: 100px;
-}
+  #navbar-logo {
+    width: 100px;
+  }
 
 </style>
 
 <style scoped>
 
-ul {
-  display: flex;
-  align-items: center;
-  list-style-type: none;
-  margin: 0;
-}
+  ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+  }
 
-li {
-  padding-right: 20px;
-}
+  li {
+    padding-right: 20px;
+  }
 
 </style>

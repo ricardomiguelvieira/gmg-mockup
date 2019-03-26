@@ -36,56 +36,56 @@ export default {
 
 <style>
 
-.main-containter {
-  margin: 0;
-  height: 100vh;
-}
+  .main-containter {
+    margin: 0;
+    height: 100vh;
+  }
 
-.content-container {
-  min-height: calc(100vh - 290px);
-  display: inline-grid;
-  grid-template-columns: 2fr 2fr;
-  margin: 16vh 0 4vw 4vw;
-}
+  .description {
+    text-align: center;
+  }
 
-.description {
-  text-align: center;
-}
+  h1 {
+    font-size: 3.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    color: #0D5BAF;
+    margin-bottom: 30px;
+  }
 
-</style>
-
-<style scoped>
-
-h1 {
-  font-size: 3.5rem;
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: 500;
-  color: #0D5BAF;
-  margin-bottom: 30px;
-}
-
-ul {
-  list-style-type: none;
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: 400;
-  font-size: 1.5rem;
-  padding: 0;
-  margin-bottom: 30px;
-}
-
-.btn-outline-primary {
-  font-family: 'Ubuntu', sans-serif;
-  width: 36%;
-  padding: 16px;
-  background: #3D98EE;
-  color: #FFFFFF;
-  border-style: #3D98EE;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  .btn-outline-primary {
+    font-family: 'Ubuntu', sans-serif;
+    width: 36%;
+    padding: 16px;
+    background: #3D98EE;
+    color: #FFFFFF;
+    border-style: #3D98EE;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   }
 
   .btn-outline-primary:hover {
     background: #2C4DAA;
     border: 1px solid #2C4DAA;
+  }
+
+</style>
+
+<style scoped>
+
+  .content-container {
+    min-height: calc(100vh - 290px);
+    display: inline-grid;
+    grid-template-columns: 2fr 2fr;
+    margin: 16vh 0 4vw 4vw;
+  }
+
+  ul {
+    list-style-type: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding: 0;
+    margin-bottom: 30px;
   }
 
 </style>
