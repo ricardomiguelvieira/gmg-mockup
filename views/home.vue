@@ -17,16 +17,19 @@
         <b-button variant="outline-primary">Start Free 7 Day Trial Now</b-button>
       </div>
     </div>
+    <footer-bottom />
   </div>
 </template>
 
 
 <script>
 import navbar from '../src/components/navbar.vue';
+import footer from '../src/components/footer.vue';
 
 export default {
   components: {
-    'navbar-top': navbar
+    'navbar-top': navbar,
+    'footer-bottom': footer
   },
 
   methods:{
