@@ -1,23 +1,28 @@
 <template>
-  <div class="main-container">
+  <div class="container">
     <navbar-top />
-    <div class="main-description">
-      <h1>The Ultimate Learning Platform</h1>
-      <ul class="features-list">
-        <li>English</li>
-        <li>Maths</li>
-        <li>Science</li>
-        <li>All major qualifications</li>
-        <li>Years 7 - 11</li>
-      </ul>
-      <b-button variant="outline-primary">Start Free 7 Day Trial Now</b-button>
+    <div class="content-container">
+      <div id="mockup-image">
+          <img alt="Device mockup" src="../src/assets/images/device-mockup.png">
+        </div>
+      <div class="main-description">
+        <h1>The Ultimate Learning Platform</h1>
+        <ul class="features-list">
+          <li>English</li>
+          <li>Maths</li>
+          <li>Science</li>
+          <li>All major qualifications</li>
+          <li>Years 7 - 11</li>
+        </ul>
+        <b-button variant="outline-primary">Start Free 7 Day Trial Now</b-button>
+      </div>
     </div>
   </div>
 </template>
 
 
 <script>
-import navbar from '../components/navbar.vue';
+import navbar from '../src/components/navbar.vue';
 
 export default {
   components: {

@@ -2,7 +2,7 @@
   <div id="navbar">
     <b-navbar variant="faded" type="light">
       <b-navbar-brand href="#">
-        <img src="../src/assets/images/navbar-logo.png" alt="GMG Logo" id="navbar-logo" />
+        <img src="../assets/images/navbar-logo.png" alt="GMG Logo" id="navbar-logo" />
       </b-navbar-brand>
     </b-navbar>
     <ul id="navbar-links">
@@ -38,16 +38,20 @@ export default {
 #navbar-logo {
   width: 100px;
 }
+
 </style>
 
 <style scoped>
+
 ul {
   display: flex;
   align-items: center;
   list-style-type: none;
   margin: 0;
 }
+
 li {
   padding-right: 20px;
 }
+
 </style>
