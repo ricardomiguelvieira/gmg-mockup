@@ -14,17 +14,13 @@ export default {
 
 <style>
 
-footer {
-  background: #3D98EE;
-  height: 16vh;
-  color: #FFFFFF;
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-around;
-}
-
-</style>
-
-<style scoped>
+  footer {
+    background: #3D98EE;
+    height: 16vh;
+    color: #FFFFFF;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+  }
 
 </style>
