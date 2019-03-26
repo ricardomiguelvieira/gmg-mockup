@@ -1,11 +1,11 @@
 <template>
-  <div class="container">
+  <div class="main-container">
     <navbar-top />
     <div class="content-container">
       <div id="mockup-image">
           <img src="../src/assets/images/device-mockup.png" alt="Device mockup">
         </div>
-      <div class="main-description">
+      <div class="description">
         <h1>The Ultimate Learning Platform</h1>
         <ul class="features-list">
           <li>English</li>
@@ -30,16 +30,18 @@ export default {
   components: {
     'navbar-top': navbar,
     'footer-bottom': footer
-  },
-
-  methods:{
   }
 }
 </script>
 
 <style>
 
-.main-description {
+.main-containter {
+  margin: 0;
+  height: 100vh;
+}
+
+.description {
   display: flex;
   flex-direction: column;
   align-items: center;

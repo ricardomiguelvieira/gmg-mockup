@@ -1,7 +1,7 @@
 <template>
   <div id="navbar">
     <b-navbar variant="faded" type="light">
-      <b-navbar-brand href="#">
+      <b-navbar-brand href="/">
         <img src="../assets/images/navbar-logo.png" alt="GMG Logo" id="navbar-logo" />
       </b-navbar-brand>
     </b-navbar>
@@ -32,6 +32,7 @@ export default {
   position: sticky;
   top: 0;
   padding: 5px 30px;
+  background: #FFFFFF;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
