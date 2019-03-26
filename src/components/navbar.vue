@@ -6,8 +6,8 @@
       </b-navbar-brand>
     </b-navbar>
     <ul id="navbar-links">
-      <li class="navbar-item">About</li>
-      <li class="navbar-item">People</li>
+      <li class="navbar-item"><router-link to="/about/">About</router-link></li>
+      <li class="navbar-item"><router-link to="/team/">Team</router-link></li>
     </ul>
   </div>
 </template>

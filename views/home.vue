@@ -3,7 +3,7 @@
     <navbar-top />
     <div class="content-container">
       <div id="mockup-image">
-          <img alt="Device mockup" src="../src/assets/images/device-mockup.png">
+          <img src="../src/assets/images/device-mockup.png" alt="Device mockup">
         </div>
       <div class="main-description">
         <h1>The Ultimate Learning Platform</h1>
