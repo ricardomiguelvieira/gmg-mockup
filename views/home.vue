@@ -14,7 +14,7 @@
           <li>All major qualifications</li>
           <li>Years 7 - 11</li>
         </ul>
-        <b-button variant="outline-primary">Start Free 7 Day Trial Now</b-button>
+        <b-button href="https://platform.getmygrades.co.uk/select?pk_vid=c4e2f1fb1386baf21553637780305eeb" target="_blank" variant="outline-primary">Start Free 7 Day Trial Now</b-button>
       </div>
     </div>
     <footer-bottom />
@@ -41,10 +41,15 @@ export default {
   height: 100vh;
 }
 
+.content-container {
+  min-height: calc(100vh - 290px);
+  display: inline-grid;
+  grid-template-columns: 2fr 2fr;
+  margin: 16vh 0 4vw 4vw;
+}
+
 .description {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
 }
 
 </style>
@@ -52,9 +57,9 @@ export default {
 <style scoped>
 
 h1 {
-  font-family: 'Archivo Narrow', sans-serif;
   font-size: 3.5rem;
-  font-weight: 700;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
   color: #0D5BAF;
   margin-bottom: 30px;
 }
@@ -69,17 +74,18 @@ ul {
 }
 
 .btn-outline-primary {
+  font-family: 'Ubuntu', sans-serif;
   width: 36%;
   padding: 16px;
   background: #3D98EE;
   color: #FFFFFF;
   border-style: #3D98EE;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   }
 
   .btn-outline-primary:hover {
-    background: #FFFFFF;
-    color: #3D98EE;
-    border: 1px solid #3D98EE;
+    background: #2C4DAA;
+    border: 1px solid #2C4DAA;
   }
 
 </style>
