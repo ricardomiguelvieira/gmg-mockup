@@ -68,6 +68,15 @@ export default {
     border: 1px solid #2C4DAA;
   }
 
+  li a {
+    color: black;
+  }
+
+  li a:hover {
+    color: #3D98EE;
+    text-decoration: none;
+  }
+
 </style>
 
 <style scoped>
