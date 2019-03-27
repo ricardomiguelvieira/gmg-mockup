@@ -69,11 +69,11 @@ export default {
   }
 
   li a {
-    color: black;
+    color: #3D98EE;
   }
 
   li a:hover {
-    color: #3D98EE;
+    color: #2C4DAA;
     text-decoration: none;
   }
 
