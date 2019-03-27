@@ -74,6 +74,12 @@
   thead {
     background: #3D98EE;
     color: #FFFFFF;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  td {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 200;
   }
 
 </style>
