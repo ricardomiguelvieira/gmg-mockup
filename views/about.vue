@@ -115,6 +115,10 @@
     margin-top: 4%;
   }
 
+  .card-text, span {
+    font-family: 'Ubuntu', sans-serif;
+  }
+
   h1 {
     font-size: 3.5rem;
     font-family: 'Ubuntu', sans-serif;
