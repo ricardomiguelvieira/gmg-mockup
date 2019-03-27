@@ -117,6 +117,7 @@
 
   .card-text, span {
     font-family: 'Ubuntu', sans-serif;
+    font-weight: 200;
   }
 
   h1 {
