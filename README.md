@@ -24,6 +24,6 @@ I began the process by working around the router and getting the links to functi
 
 After implementing and testing the redirecting logic, I went on to style the pages. I've installed bootstrap-vue for a simple access to responsive cards (About, Team pages) and navbar and went one to edit the given attributes to better fit the design.
 
-Finally, I've installed axios and vue-server to serve a db.json, fetch its object People and rendered its key-values on a table (People page).
+Finally, I've installed axios and json-server to serve a db.json, fetch its object People and rendered its key-values on a table (People page).
 
 As for the next steps, I would continue to improve the responsiveness of the web app and would implement a feature to render the Team's cards with a more detailed description of its subjects. On the homepage, I would extend its content to feature a "How it Works" section detailing the service journey to the users.
