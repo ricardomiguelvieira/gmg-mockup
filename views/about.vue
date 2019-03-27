@@ -120,6 +120,10 @@
     font-weight: 200;
   }
 
+  .card {
+    font-family: 'Ubuntu', sans-serif;
+  }
+
   h1 {
     font-size: 3.5rem;
     font-family: 'Ubuntu', sans-serif;
