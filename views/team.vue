@@ -142,28 +142,30 @@
 
 
 <script>
-import navbar from '../src/components/navbar.vue';
-import footer from '../src/components/footer.vue';
 
-export default {
-  components: {
-    'navbar-top': navbar,
-    'footer-bottom': footer
+  import navbar from '../src/components/navbar.vue';
+  import footer from '../src/components/footer.vue';
+
+  export default {
+    components: {
+      'navbar-top': navbar,
+      'footer-bottom': footer
+    }
   }
-}
+
 </script>
 
 <style>
 
-.card-img-left {
-  max-width: 240px;
-  height: 240px;
-}
+  .card-img-left {
+    max-width: 240px;
+    height: 240px;
+  }
 
-#email-icon img {
-  height: 24px;
-  vertical-align: bottom;
-}
+  #email-icon img {
+    height: 24px;
+    vertical-align: bottom;
+  }
 
 </style>
 

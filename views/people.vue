@@ -20,6 +20,7 @@
 </template>
 
 <script>
+
   import axios from 'axios'
   import navbar from '../src/components/navbar.vue';
   import footer from '../src/components/footer.vue';
@@ -50,29 +51,29 @@
 
 <style>
 
-.main-containter {
-    margin: 0;
-    height: 100vh;
-}
+  .main-containter {
+      margin: 0;
+      height: 100vh;
+  }
 
 </style>
 
 <style scoped>
 
-.content-container {
-  min-height: calc(100vh - 290px);
-  margin: 16vh 0 4vw 4vw;
-  display: flex;
-  justify-content: space-around;
-}
+  .content-container {
+    min-height: calc(100vh - 290px);
+    margin: 16vh 0 4vw 4vw;
+    display: flex;
+    justify-content: space-around;
+  }
 
-.table {
-  width: 50%;
-}
+  .table {
+    width: 50%;
+  }
 
-thead {
-  background: #3D98EE;
-  color: #FFFFFF;
-}
+  thead {
+    background: #3D98EE;
+    color: #FFFFFF;
+  }
 
 </style>

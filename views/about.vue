@@ -71,40 +71,42 @@
 
 
 <script>
-import navbar from '../src/components/navbar.vue';
-import footer from '../src/components/footer.vue';
 
-export default {
-  components: {
-    'navbar-top': navbar,
-    'footer-bottom': footer
+  import navbar from '../src/components/navbar.vue';
+  import footer from '../src/components/footer.vue';
+
+  export default {
+    components: {
+      'navbar-top': navbar,
+      'footer-bottom': footer
+    }
   }
-}
+
 </script>
 
 <style>
 
-.mb-2 {
-  border-radius: 8px;
-  border: 1px solid #3D98EE;
-  margin: 0 8px;
-}
+  .mb-2 {
+    border-radius: 8px;
+    border: 1px solid #3D98EE;
+    margin: 0 8px;
+  }
 
-.mb-2 img {
-  height: 180px;
-  width: auto;
-}
+  .mb-2 img {
+    height: 180px;
+    width: auto;
+  }
 
 </style>
 
 <style scoped>
 
   .cards {
-      min-height: calc(100vh - 290px);
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      align-items: center;
-    }
+    min-height: calc(100vh - 290px);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    align-items: center;
+  }
 
   .content-container {
     position: relative;
@@ -112,7 +114,6 @@ export default {
     margin: auto;
     margin-top: 4%;
   }
-
 
   h1 {
     font-size: 3.5rem;

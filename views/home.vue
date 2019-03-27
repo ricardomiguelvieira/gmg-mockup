@@ -23,15 +23,17 @@
 
 
 <script>
-import navbar from '../src/components/navbar.vue';
-import footer from '../src/components/footer.vue';
 
-export default {
-  components: {
-    'navbar-top': navbar,
-    'footer-bottom': footer
+  import navbar from '../src/components/navbar.vue';
+  import footer from '../src/components/footer.vue';
+
+  export default {
+    components: {
+      'navbar-top': navbar,
+      'footer-bottom': footer
+    }
   }
-}
+
 </script>
 
 <style>
