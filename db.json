@@ -1,0 +1,54 @@
+{
+  "people": [
+    {
+      "id": 0,
+      "name": "Ricardo Vieira",
+      "address": "Crystal Palace"
+    },
+    {
+      "id": 1,
+      "name": "John Smith",
+      "address": "London"
+    },
+    {
+      "id": 2,
+      "name": "Marisa Keller",
+      "address": "Sydenham"
+    },
+    {
+      "id": 3,
+      "name": "Mandy Oliver",
+      "address": "Walthamstow"
+    },
+    {
+      "id": 4,
+      "name": "William Forrest",
+      "address": "Morden"
+    },
+    {
+      "id": 5,
+      "name": "Jem Waldon",
+      "address": "Gypsy Hill"
+    },
+    {
+      "id": 6,
+      "name": "Oliver Contreras",
+      "address": "Victoria"
+    },
+    {
+      "id": 7,
+      "name": "Ash Bryant",
+      "address": "Manchester"
+    },
+    {
+      "id": 8,
+      "name": "Kim Orchard",
+      "address": "Brixton"
+    },
+    {
+      "id": 9,
+      "name": "Max Wilder",
+      "address": "St. Ives"
+    }
+  ]
+}
