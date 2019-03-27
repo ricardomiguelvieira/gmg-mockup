@@ -84,13 +84,6 @@ export default {
 
 <style>
 
-.cards {
-  min-height: calc(100vh - 290px);
-  display: inline-grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  align-items: center;
-}
-
 .mb-2 {
   border-radius: 8px;
   border: 1px solid #3D98EE;
@@ -105,6 +98,13 @@ export default {
 </style>
 
 <style scoped>
+
+  .cards {
+      min-height: calc(100vh - 290px);
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      align-items: center;
+    }
 
   .content-container {
     position: relative;
