@@ -156,7 +156,8 @@ export default {
 <style>
 
 .card-img-left {
-  height: 200px;
+  max-width: 240px;
+  height: 240px;
 }
 
 #email-icon img {
@@ -168,18 +169,17 @@ export default {
 
 <style scoped>
 
-  .b-card {
-    min-height: 150px;
-  }
-
   .content-container {
-    position: relative;
     width: 50%;
     margin: auto;
     margin-top: 4%;
     margin-bottom: 4%;
   }
 
+  .flex-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+  }
 
   h1 {
     font-size: 3.5rem;

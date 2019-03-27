@@ -45,6 +45,10 @@ export default {
     text-align: center;
   }
 
+  #mockup-image img{
+    width: 100%;
+  }
+
   h1 {
     font-size: 3.5rem;
     font-family: 'Ubuntu', sans-serif;
@@ -83,8 +87,8 @@ export default {
 
   .content-container {
     min-height: calc(100vh - 290px);
-    display: inline-grid;
-    grid-template-columns: 2fr 2fr;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
     margin: 16vh 0 4vw 4vw;
   }
 
