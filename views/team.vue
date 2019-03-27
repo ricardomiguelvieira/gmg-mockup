@@ -156,7 +156,7 @@ export default {
 <style>
 
 .card-img-left {
-  height: 200px;
+  height: 206px;
 }
 
 #email-icon img {
