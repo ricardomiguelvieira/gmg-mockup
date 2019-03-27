@@ -22,6 +22,8 @@ export default {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 200;
   }
 
 </style>
