@@ -8,6 +8,7 @@
     <ul id="navbar-links">
       <li class="navbar-item"><router-link to="/about/">About</router-link></li>
       <li class="navbar-item"><router-link to="/team/">Team</router-link></li>
+      <li class="navbar-item"><router-link to="/people/">People</router-link></li>
     </ul>
   </div>
 </template>
