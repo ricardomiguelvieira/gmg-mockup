@@ -18,10 +18,3 @@ const app = new Vue({
   router,
   render: h => h(App)
 }).$mount('#app');
-
-
-fetch('http://localhost:3000/people/')
- .then(response => response.json())
- .catch(error => console.error('Error:', error))
- .then(response => console.log('Success:',
-  JSON.stringify(response)));
