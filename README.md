@@ -1,7 +1,3 @@
-# get-my-grades
-
-> Get My Grades Task
-
 ## Build Setup
 
 ``` bash
